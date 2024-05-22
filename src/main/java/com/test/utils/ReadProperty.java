@@ -15,6 +15,5 @@ public class ReadProperty {
         } catch (Exception e) {
         }
         return prop.getProperty(key);
-        F
     }
 }
