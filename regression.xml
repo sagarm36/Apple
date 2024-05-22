@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sagar/git/MavenTestNG/Test/src">
+        <classes>
+            <class name="com.test.login.LoginTest">
+                <methods>
+                    <include name="Login_01"/>
+                    <include name="Login_02"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
